@@ -84,6 +84,8 @@ The application includes the following core **pages**:
 - Connect **Login** and **Sign Up** forms to Supabase backend
 - Secure user registration and session persistence
 
+#### Chatbot Integration
+Add an AI chatbot for real-time user assistance (e.g., product questions, order help, navigation support)
 ---
 
 ## Planned Database Schema (Supabase)
