@@ -4,6 +4,7 @@ import type { Database } from '../database.types';
 import CakeModal from '../components/CakeModal';
 import OrderForm from '../components/OrderForm';
 import AddressPopover from '../components/AddressPopover';
+import { Link } from "react-router-dom";
 
 interface ProductDetail {
   id: number;
@@ -103,8 +104,12 @@ export default function CakeList() {
           <h1 className="text-3xl font-bold text-caramel-gold">Patisserie</h1>
           <nav className="space-x-6 text-dark-brown text-base font-medium">
             <a href="/about" className="hover:text-pistachio-green transition-colors">About</a>
-            <a href="/login" className="hover:text-pistachio-green transition-colors">Login</a>
-            <a href="/signup" className="hover:text-pistachio-green transition-colors">Sign up</a>
+            <Link to="/login" className="hover:text-pistachio-green transition-colors">
+              Login
+            </Link>
+            <Link to="/signup" className="hover:text-pistachio-green transition-colors">
+              Sign up
+            </Link>
           </nav>
         </div>
       </header>
