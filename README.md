@@ -51,6 +51,12 @@ The application includes the following core **pages**:
 - Interactive 3D product viewer with flavor variations
 - Flavor-specific 3D model switching
 - Fully functional address selection and order form
+- Embed **Google Maps** for live location input
+
+### Login
+- User registration and login flow
+### Sign Up
+- User registration and login flow
 
 ---
 
@@ -77,25 +83,11 @@ The application includes the following core **pages**:
 - Restrict purchases to **authenticated users**
 - Auto-fill order form using stored user data
 
-### Address Integration
-- Embed **Google Maps** for live location input
-
-### Authentication
-- Connect **Login** and **Sign Up** forms to Supabase backend
-- Secure user registration and session persistence
-
 #### Chatbot Integration
 Add an AI chatbot for real-time user assistance (e.g., product questions, order help, navigation support)
----
 
-## Planned Database Schema (Supabase)
-
-| Table Name | Description                        |
-|------------|------------------------------------|
-| `customers` | Stores user profile & auth info    |
-| `cart`      | Holds current user cart contents   |
-| *(planned)* `orders`, `products`, `addresses` — for future scalability |
-
+## Database Schema (Supabase)
+![DB Schema](public/DB_Schema.png)
 ---
 
 ## Used Media

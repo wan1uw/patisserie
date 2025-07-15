@@ -20,7 +20,7 @@ export default function Login() {
         .from('customers')
         .select('*')
         .eq('email', email)
-        .eq('password', password) // ⚠️ plain-text for demo ONLY
+        .eq('password', password)
         .single();
 
       if (error || !data) {
