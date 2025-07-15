@@ -87,7 +87,7 @@ The application includes the following core **pages**:
 Add an AI chatbot for real-time user assistance (e.g., product questions, order help, navigation support)
 
 ## Database Schema (Supabase)
-![DB Schema](public/DB_Schema.png)
+![DB Schema](./store-web/public/DB_Schema.png)
 ---
 
 ## Used Media
